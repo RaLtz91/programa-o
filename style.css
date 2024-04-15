@@ -40,9 +40,15 @@ body{
     align-items: center;
     padding: 24px 0;
 }
-.estuante-titulo{
+.estudante-titulo{
     padding: 24px 0;
 }
 .estudante-imagem{
     width: 120px;
+}
+.estudante-icone{
+    width: 80px;
+}
+.estudantes-div{
+    text-align: center;
 }
