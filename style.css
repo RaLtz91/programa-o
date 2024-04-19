@@ -40,8 +40,13 @@ body{
     align-items: center;
     padding: 24px 0;
 }
-.estudante-titulo{
+.escola-titulo{
     padding: 24px 0;
+
+}
+.estudantes-titulo{
+    text-align: center;
+    padding: 50px 3;
 }
 .estudante-imagem{
     width: 120px;
