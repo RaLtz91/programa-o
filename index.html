@@ -1,65 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-</head>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            AluraBooks
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+    </head>
+    <body>
+        <header class="cabeçalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                <span class="cabeçalho_menu_hamburguer container__imagem"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__titulo">categoria</li>
+                    <li class="lista-menu__item">
+                        <a href="lista-menu__link">Programação</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="lista-menu__link">Front-end</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="lista-menu__link">Infraestrutura</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="lista-menu__link">Business</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="lista-menu__link">Design & UX</a>
+                     </li>
+                </ul>
+                <img src="img/Logo.svg" alt="Logo do AluraBooks" class="">
+        </div>
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class=""></a>
+            <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class=""></a>
+            <a href="#"><img src="img/Usuário.svg" alt="Meu Perfil" class=""></a>
+        </div>
+        </header>
 
-<body>
-    <header class="cabecalho">
-    <img class="imagem-cabecalho" src="processador-de-texto.png" alt="">
-    <ul class="cabecalho-lista-item">
-        <li>Etuanes</li>
-        <li>Exola</li>
-    </ul>
-    </header>
+    </body>
 
-    <section class="escola">
-        <h2 class="escola-titulo"> SOBRE A MATÉRIA</h2>
-        <p class="escola-texto-um">Aqui você aprender sobre programação
-            de Web sites e design de páginas na Web assim conseguindo fazer várias sites de
-            qualquer tipo do seu interesse.</p>
 
-        <p class="escola-texto-dois">Assim aumentando seu conhecimente sobre programação e sua criativadade 
-            além de ajudar muito as carreiras de Web
-            design e divulgação de alguns produtos
-            ou coisas do seu interesse.</p>
-            <img class="escola-imagem" src="software tester-pana.png"  alt="">
-    
-    </section>
-    <section class="estudantes">
-        <h2 class="estudantes-titulo">QUEM SÃO NOSSOS ESTUDANTES</h2>
-        <div class="estudante-todos"> 
 
-            <div class="estudantes-div">
-                <img class="estudante-imagem" src="tiago.png" alt="imagem estudante Tiago o criadeiro">
-                <h3>Tiago</h3>
-                <a href="https://www.instagram.com/feliciathegoat?igsh=dmdpNzNhczM2d2t1"><img class="estudante-icone" src="instagram.png" alt="instagram"></a>
-                <a href="https://github.com/RaLtz91"><img class="estudante-icone" src="github.png" alt="github"></a>
-                <img class="estudante-icone" src="webite.png" alt="website">
-            </div>
-            <div class="estudantes-div">
-                <img class="estudante-imagem" src="kaua.png" alt="imagem estudante Tiago o criadeiro">
-                <h3>Kaua</h3>
-                <a href="https://www.instagram.com/yeezymafia?igsh=MWV6bGlqeTQ4dXl1cw=="><img class="estudante-icone" src="instagram.png" alt="instagram"></a>
-                <a href="https://github.com/RaLtz91"><img class="estudante-icone" src="github.png" alt="github"></a>
-                <img class="estudante-icone" src="webite.png" alt="website">
-            </div>
-            <div class="estudantes-div">
-                <img class="estudante-imagem" src="cacto.png" alt="imagem estudante Tiago o criadeiro">
-                <h3>Cacto</h3>
-                <a href="https://www.instagram.com/travisscott?igsh=ZDUxeHh5cnhsbmU5"><img class="estudante-icone" src="instagram.png" alt="instagram"></a>
-                <a href="https://github.com/RaLtz91"><img class="estudante-icone" src="github.png" alt="github"></a>
-                <img class="estudante-icone" src="webite.png" alt="website">
-            </div>
-    </div>
-    </section>
 
-</body>
 </html>
